@@ -1,6 +1,6 @@
 #!/bin/bash
 
-sudo apt-install python3-pip
+sudo apt install python3-pip
 pip3 install tensorflow-gpu numpy keras
 
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/cuda/extras/CUPTI/lib64
