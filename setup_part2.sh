@@ -6,7 +6,7 @@ wget https://developer.download.nvidia.com/compute/machine-learning/repos/ubuntu
 sudo apt install ./libnvinfer7_7.1.3-1+cuda11.0_amd64.deb
 sudo apt-get update
 
-sudo apt-get install --no-install-recommends \
+sudo apt-get install -y --no-install-recommends \
     cuda-11-0 \
     libcudnn8=8.0.4.30-1+cuda11.0  \
     libcudnn8-dev=8.0.4.30-1+cuda11.0
